@@ -78,15 +78,14 @@ body{
 #calc{
     border-style: none;
     outline: none;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: rgb(46, 46, 46);
     border-radius: 5px;
     pointer-events: none;
     font-size: 40px;
-    box-shadow:  4px 4px 6px 0 rgba(128, 128, 128, 0.5),
-    -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-    inset -4px -4px 6px 0 rgba(56, 56, 56, 0.5),
-    inset 4px 4px 6px 0 rgba(235, 234, 234, 0.3);
+    border-radius: 10px;
+    background: linear-gradient(145deg, #2e2e2e, #373737);
+
 }
 
 .operator{
